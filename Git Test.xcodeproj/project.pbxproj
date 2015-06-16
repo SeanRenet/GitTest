@@ -15,6 +15,7 @@
 		B133440D1B30D46C0039EADA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B133440C1B30D46C0039EADA /* Images.xcassets */; };
 		B13344101B30D46C0039EADA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B133440E1B30D46C0039EADA /* LaunchScreen.xib */; };
 		B133441C1B30D46C0039EADA /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B133441B1B30D46C0039EADA /* Git_TestTests.m */; };
+		B13344271B30EE490039EADA /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B13344261B30EE490039EADA /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		B13344151B30D46C0039EADA /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B133441A1B30D46C0039EADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B133441B1B30D46C0039EADA /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		B13344251B30EE490039EADA /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestClass.h; path = GitTestFolder/TestClass.h; sourceTree = "<group>"; };
+		B13344261B30EE490039EADA /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestClass.m; path = GitTestFolder/TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				B13344001B30D46C0039EADA /* AppDelegate.h */,
+				B13344251B30EE490039EADA /* TestClass.h */,
+				B13344261B30EE490039EADA /* TestClass.m */,
 				B13344011B30D46C0039EADA /* AppDelegate.m */,
 				B13344061B30D46C0039EADA /* ViewController.h */,
 				B13344071B30D46C0039EADA /* ViewController.m */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13344271B30EE490039EADA /* TestClass.m in Sources */,
 				B13344021B30D46C0039EADA /* AppDelegate.m in Sources */,
 				B13343FF1B30D46C0039EADA /* main.m in Sources */,
 				B13344081B30D46C0039EADA /* ViewController.m in Sources */,
